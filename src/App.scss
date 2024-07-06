@@ -1,0 +1,18 @@
+#tsparticles canvas{
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.App{
+  height: 100%;
+
+  &__main-page-content{
+    height: calc(100% - 80px);
+  }
+}
+
+
+
+
