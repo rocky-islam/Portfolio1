@@ -11,6 +11,14 @@ export const skillsData =[
                 percentage: '90'
             },
             {
+                skillName: 'BootStrap',
+                percentage: '90'
+            },
+            {
+                skillName: 'Tailwind CSS',
+                percentage: '90'
+            },
+            {
                 skillName: 'JavaScript',
                 percentage: '80'
             }

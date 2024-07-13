@@ -2,6 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import './style.scss'
 import { Animate } from 'react-simple-animate';
 import { Typewriter } from 'react-simple-typewriter';
+import rocky from '../../helper/image/mdrockyislam.jpg'
 
 const Home = () => {
     const navigate = useNavigate();
@@ -12,6 +13,11 @@ const Home = () => {
     return (
         <div>
             <section id="home" className="home">
+                <div className='img-container'>
+                    <div className='image'>
+                        <img className='img' src={rocky} alt="" />
+                    </div>
+                </div>
                 <div className="home__text-wrapper">
                     <h1>
                         Hello, I,m Md Rocky Islam

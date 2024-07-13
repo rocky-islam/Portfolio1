@@ -22,6 +22,14 @@ const About = () => {
             value: 'mdrockyislam.p@gmail.com'
         },
         {
+            label: 'Github:- ',
+            value: 'github.com/rocky-islam'
+        },
+        {
+            label: 'Linkedin:- ',
+            value: 'www.linkedin.com/in/mdrockyislam/'
+        },
+        {
             label: 'Phone:- ',
             value: '+8801765349871'
         }
