@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import './style.scss'
 import { Animate } from 'react-simple-animate';
+import { Typewriter } from 'react-simple-typewriter';
 
 const Home = () => {
     const navigate = useNavigate();
@@ -15,7 +16,14 @@ const Home = () => {
                     <h1>
                         Hello, I,m Md Rocky Islam
                         <br />
-                        FullStack Web Developer
+                        <Typewriter
+                            words={['Frontend Developer', 'Web Developer', 'MERN Stack Developer', 'FullStack Developer']}
+                            loop= {false}
+                            typeSpeed={70}
+                            deleteSpeed={50}
+                            delaySpeed={1500}
+                            cursor
+                        ></Typewriter>
                     </h1>
                 </div>
                 <Animate
